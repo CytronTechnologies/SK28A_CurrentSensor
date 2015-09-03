@@ -1,0 +1,20 @@
+_read_adc_value: CODE, 3568 0 152
+_set_lcd_e: CODE, 4228 0 12
+_set_lcd_rs: CODE, 4240 0 12
+_lcd_2ndline: CODE, 4154 0 22
+_adc_initialize: CODE, 4214 0 14
+_set_lcd_data: CODE, 4252 0 10
+__stringdata: SMALLCONST, 2048 0 25
+_lcd_putstr: CODE, 3828 0 106
+_lcd_putchar: CODE, 4196 0 18
+_main: CODE, 2074 0 742
+_lcd_clr: CODE, 4132 0 22
+__initialization: CODE, 4088 0 30
+___lwdiv: CODE, 3720 0 108
+_lcd_goto: CODE, 4176 0 20
+_lcd_bcd: CODE, 2816 0 316
+_send_lcd_data: CODE, 3132 0 246
+___lwmod: CODE, 3934 0 92
+___wmul: CODE, 4026 0 62
+_lcd_init: CODE, 3378 0 190
+Total: 2199

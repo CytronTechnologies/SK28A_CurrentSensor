@@ -1,0 +1,429 @@
+[p LITE_MODE AUTOSTATIC LFSROK ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2550 ]
+"99 C:\Users\Phang\Desktop\current meassure\program\ACS712_Sample_Code\lcd.c
+[s S52 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[s S61 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S69 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S72 . 1 `S52 1 . 1 0 `S61 1 . 1 0 `S69 1 . 1 0 ]
+"42 C:\Users\Phang\Desktop\current meassure\program\ACS712_Sample_Code\acs712.c
+[s S143 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+[s S146 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S150 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+[s S153 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S160 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S163 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S166 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S169 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S172 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S175 . 1 `S143 1 . 1 0 `S146 1 . 1 0 `S143 1 . 1 0 `S153 1 . 1 0 `S160 1 . 1 0 `S163 1 . 1 0 `S166 1 . 1 0 `S169 1 . 1 0 `S172 1 . 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.12\sources\abdiv.c
+[v ___abdiv `(c  1 e 1 0 ]
+"5 ../common/asfladd.c
+[v ___asfladd `(d  1 e 3 0 ]
+"5 ../common/asfldiv.c
+[v ___asfldiv `(d  1 e 3 0 ]
+"5 ../common/asflmul.c
+[v ___asflmul `(d  1 e 3 0 ]
+"5 ../common/asflsub.c
+[v ___asflsub `(d  1 e 3 0 ]
+"5 ../common/asftadd.c
+[v ___asftadd `(f  1 e 3 0 ]
+"5 ../common/asftdiv.c
+[v ___asftdiv `(f  1 e 3 0 ]
+"5 ../common/asftmul.c
+[v ___asftmul `(f  1 e 3 0 ]
+"5 ../common/asftsub.c
+[v ___asftsub `(f  1 e 3 0 ]
+"5 ../common/aslmul.c
+[v ___aslmul `(ul  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.12\sources\abmod.c
+[v ___abmod `(c  1 e 1 0 ]
+"32 C:\Program Files\Microchip\xc8\v1.12\sources\abtofl.c
+[v ___abtofl `(d  1 e 3 0 ]
+"34 C:\Program Files\Microchip\xc8\v1.12\sources\abtoft.c
+[v ___abtoft `(f  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+"37 C:\Program Files\Microchip\xc8\v1.12\sources\altofl.c
+[v ___altofl `(d  1 e 3 0 ]
+"43 C:\Program Files\Microchip\xc8\v1.12\sources\altoft.c
+[v ___altoft `(f  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\atdiv.c
+[v ___atdiv `(m  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\atmod.c
+[v ___atmod `(m  1 e 3 0 ]
+"38 C:\Program Files\Microchip\xc8\v1.12\sources\attofl.c
+[v ___attofl `(d  1 e 3 0 ]
+"38 C:\Program Files\Microchip\xc8\v1.12\sources\attoft.c
+[v ___attoft `(f  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\awdiv.c
+[v ___awdiv `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\awmod.c
+[v ___awmod `(i  1 e 2 0 ]
+"32 C:\Program Files\Microchip\xc8\v1.12\sources\awtofl.c
+[v ___awtofl `(d  1 e 3 0 ]
+"33 C:\Program Files\Microchip\xc8\v1.12\sources\awtoft.c
+[v ___awtoft `(f  1 e 3 0 ]
+"3 C:\Program Files\Microchip\xc8\v1.12\sources\bmul.c
+[v ___bmul `(uc  1 e 1 0 ]
+"64 C:\Program Files\Microchip\xc8\v1.12\sources\double.c
+[v ___flpack `(d  1 e 3 0 ]
+"89 C:\Program Files\Microchip\xc8\v1.12\sources\fladd.c
+[v ___fladd `(d  1 e 3 0 ]
+"50 C:\Program Files\Microchip\xc8\v1.12\sources\fldiv.c
+[v ___fldiv `(d  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.12\sources\flge.c
+[v ___flge `(b  1 e 0 0 ]
+"51 C:\Program Files\Microchip\xc8\v1.12\sources\flmul.c
+[v ___flmul `(d  1 e 3 0 ]
+"16 C:\Program Files\Microchip\xc8\v1.12\sources\flneg.c
+[v ___flneg `(d  1 e 3 0 ]
+"63 C:\Program Files\Microchip\xc8\v1.12\sources\float.c
+[v ___ftpack `(f  1 e 3 0 ]
+"22 C:\Program Files\Microchip\xc8\v1.12\sources\flsub.c
+[v ___flsub `(d  1 e 3 0 ]
+"44 C:\Program Files\Microchip\xc8\v1.12\sources\fltol.c
+[v ___fltol `(l  1 e 4 0 ]
+"87 C:\Program Files\Microchip\xc8\v1.12\sources\ftadd.c
+[v ___ftadd `(f  1 e 3 0 ]
+"50 C:\Program Files\Microchip\xc8\v1.12\sources\ftdiv.c
+[v ___ftdiv `(f  1 e 3 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.12\sources\ftge.c
+[v ___ftge `(b  1 e 0 0 ]
+"52 C:\Program Files\Microchip\xc8\v1.12\sources\ftmul.c
+[v ___ftmul `(f  1 e 3 0 ]
+"16 C:\Program Files\Microchip\xc8\v1.12\sources\ftneg.c
+[v ___ftneg `(f  1 e 3 0 ]
+"22 C:\Program Files\Microchip\xc8\v1.12\sources\ftsub.c
+[v ___ftsub `(f  1 e 3 0 ]
+"45 C:\Program Files\Microchip\xc8\v1.12\sources\fttol.c
+[v ___fttol `(l  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.12\sources\lbdiv.c
+[v ___lbdiv `(uc  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v1.12\sources\lbmod.c
+[v ___lbmod `(uc  1 e 1 0 ]
+"28 C:\Program Files\Microchip\xc8\v1.12\sources\lbtofl.c
+[v ___lbtofl `(d  1 e 3 0 ]
+"28 C:\Program Files\Microchip\xc8\v1.12\sources\lbtoft.c
+[v ___lbtoft `(f  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\lldiv.c
+[v ___lldiv `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\llmod.c
+[v ___llmod `(ul  1 e 4 0 ]
+"31 C:\Program Files\Microchip\xc8\v1.12\sources\lltofl.c
+[v ___lltofl `(d  1 e 3 0 ]
+"36 C:\Program Files\Microchip\xc8\v1.12\sources\lltoft.c
+[v ___lltoft `(f  1 e 3 0 ]
+"3 C:\Program Files\Microchip\xc8\v1.12\sources\lmul.c
+[v ___lmul `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\ltdiv.c
+[v ___ltdiv `(um  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\ltmod.c
+[v ___ltmod `(um  1 e 3 0 ]
+"31 C:\Program Files\Microchip\xc8\v1.12\sources\lttofl.c
+[v ___lttofl `(d  1 e 3 0 ]
+"31 C:\Program Files\Microchip\xc8\v1.12\sources\lttoft.c
+[v ___lttoft `(f  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\lwdiv.c
+[v ___lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\lwmod.c
+[v ___lwmod `(ui  1 e 2 0 ]
+"29 C:\Program Files\Microchip\xc8\v1.12\sources\lwtofl.c
+[v ___lwtofl `(d  1 e 3 0 ]
+"29 C:\Program Files\Microchip\xc8\v1.12\sources\lwtoft.c
+[v ___lwtoft `(f  1 e 3 0 ]
+"3 C:\Program Files\Microchip\xc8\v1.12\sources\tmul.c
+[v ___tmul `(um  1 e 3 0 ]
+"3 C:\Program Files\Microchip\xc8\v1.12\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+"55 C:\Users\Phang\Desktop\current meassure\program\ACS712_Sample_Code\acs712.c
+[v _main `(i  1 e 2 0 ]
+"177
+[v _delay_ms `(v  1 e 0 0 ]
+"183
+[v _adc_initialize `(v  1 e 0 0 ]
+"190
+[v _read_adc_value `(ui  1 e 2 0 ]
+"117 C:\Users\Phang\Desktop\current meassure\program\ACS712_Sample_Code\lcd.c
+[v _lcd_init `(v  1 e 0 0 ]
+"161
+[v _lcd_clr `(v  1 e 0 0 ]
+"182
+[v _lcd_home `(v  1 e 0 0 ]
+"203
+[v _lcd_2ndline `(v  1 e 0 0 ]
+"224
+[v _lcd_goto `(v  1 e 0 0 ]
+"245
+[v _lcd_putchar `(v  1 e 0 0 ]
+"266
+[v _lcd_putstr `(v  1 e 0 0 ]
+"299
+[v _lcd_bcd `(v  1 e 0 0 ]
+"337
+[v _lcd_clear_msg `(v  1 e 0 0 ]
+"357
+[v _send_lcd_data `(v  1 e 0 0 ]
+"414
+[v _set_lcd_e `(v  1 e 0 0 ]
+"434
+[v _set_lcd_rs `(v  1 e 0 0 ]
+"454
+[v _set_lcd_data `(v  1 e 0 0 ]
+"2373 C:\Program Files\Microchip\xc8\v1.12\include\pic18f2550.h
+[v _PORTA `VEuc  1 e 1 @3968 ]
+"2529
+[v _PORTB `VEuc  1 e 1 @3969 ]
+[s S52 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"2559
+[s S61 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S69 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S72 . 1 `S52 1 . 1 0 `S61 1 . 1 0 `S69 1 . 1 0 ]
+[v _PORTBbits `VES72  1 e 1 @3969 ]
+"2638
+[v _PORTC `VEuc  1 e 1 @3970 ]
+"3406
+[v _TRISA `VEuc  1 e 1 @3986 ]
+"3603
+[v _TRISB `VEuc  1 e 1 @3987 ]
+"5852
+[v _ADCON2 `VEuc  1 e 1 @4032 ]
+"5922
+[v _ADCON1 `VEuc  1 e 1 @4033 ]
+"6012
+[v _ADCON0 `VEuc  1 e 1 @4034 ]
+[s S143 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"6060
+[s S146 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S153 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S160 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S163 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S166 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S169 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S172 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S175 . 1 `S143 1 . 1 0 `S146 1 . 1 0 `S143 1 . 1 0 `S153 1 . 1 0 `S160 1 . 1 0 `S163 1 . 1 0 `S166 1 . 1 0 `S169 1 . 1 0 `S172 1 . 1 0 ]
+[v _ADCON0bits `VES175  1 e 1 @4034 ]
+"6140
+[v _ADRESL `VEuc  1 e 1 @4035 ]
+"6146
+[v _ADRESH `VEuc  1 e 1 @4036 ]
+"9038
+[v _RB0 `VEb  1 e 0 @31752 ]
+"90 C:\Users\Phang\Desktop\current meassure\program\ACS712_Sample_Code\lcd.c
+[v _b_4_bits_data_bus `uc  1 e 1 0 ]
+"55 C:\Users\Phang\Desktop\current meassure\program\ACS712_Sample_Code\acs712.c
+[v _main `(i  1 e 2 0 ]
+{
+"57
+[v main@valueans `ui  1 a 2 30 ]
+"56
+[v main@value `ui  1 a 2 28 ]
+"58
+[v main@peakvalue `ui  1 a 2 26 ]
+"59
+[v main@condition `ui  1 a 2 24 ]
+"168
+} 0
+"117 C:\Users\Phang\Desktop\current meassure\program\ACS712_Sample_Code\lcd.c
+[v _lcd_init `(v  1 e 0 0 ]
+{
+"143
+} 0
+"161
+[v _lcd_clr `(v  1 e 0 0 ]
+{
+"164
+} 0
+"266
+[v _lcd_putstr `(v  1 e 0 0 ]
+{
+[v lcd_putstr@csz_string `*.cCuc  1 p 2 7 ]
+"283
+} 0
+"203
+[v _lcd_2ndline `(v  1 e 0 0 ]
+{
+"206
+} 0
+"299
+[v _lcd_bcd `(v  1 e 0 0 ]
+{
+"300
+[v lcd_bcd@ui_decimal `[5]ui  1 a 10 12 ]
+"299
+[v lcd_bcd@uc_digit `uc  1 p 1 8 ]
+[v lcd_bcd@ui_number `ui  1 p 2 9 ]
+"300
+[v lcd_bcd@F4697 `[5]ui  1 s 10 F4697 ]
+"321
+} 0
+"224
+[v _lcd_goto `(v  1 e 0 0 ]
+{
+[v lcd_goto@uc_position `uc  1 p 1 5 ]
+"227
+} 0
+"245
+[v _lcd_putchar `(v  1 e 0 0 ]
+{
+[v lcd_putchar@c_data `uc  1 p 1 5 ]
+"248
+} 0
+"357
+[v _send_lcd_data `(v  1 e 0 0 ]
+{
+"358
+[v send_lcd_data@uc_pre_portd `uc  1 a 1 4 ]
+"357
+[v send_lcd_data@b_rs `uc  1 p 1 1 ]
+[v send_lcd_data@uc_data `uc  1 p 1 2 ]
+"396
+} 0
+"414
+[v _set_lcd_e `(v  1 e 0 0 ]
+{
+[v set_lcd_e@b_output `uc  1 p 1 0 ]
+"416
+} 0
+"434
+[v _set_lcd_rs `(v  1 e 0 0 ]
+{
+[v set_lcd_rs@b_output `uc  1 p 1 0 ]
+"436
+} 0
+"454
+[v _set_lcd_data `(v  1 e 0 0 ]
+{
+[v set_lcd_data@uc_data `uc  1 p 1 0 ]
+"456
+} 0
+"183 C:\Users\Phang\Desktop\current meassure\program\ACS712_Sample_Code\acs712.c
+[v _adc_initialize `(v  1 e 0 0 ]
+{
+"187
+} 0
+"190
+[v _read_adc_value `(ui  1 e 2 0 ]
+{
+"194
+[v read_adc_value@i `ui  1 a 2 10 ]
+"191
+[v read_adc_value@temp `ui  1 a 2 14 ]
+"192
+[v read_adc_value@temp_sum `ui  1 a 2 12 ]
+"205
+} 0
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\lwdiv.c
+[v ___lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter `uc  1 a 1 7 ]
+"10
+[v ___lwdiv@dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor `ui  1 p 2 2 ]
+"31
+} 0
+"10 C:\Program Files\Microchip\xc8\v1.12\sources\lwmod.c
+[v ___lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter `uc  1 a 1 5 ]
+"10
+[v ___lwmod@dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor `ui  1 p 2 2 ]
+"26
+} 0
+"3 C:\Program Files\Microchip\xc8\v1.12\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+{
+"4
+[v ___wmul@product `ui  1 a 2 4 ]
+"3
+[v ___wmul@multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand `ui  1 p 2 2 ]
+"13
+} 0

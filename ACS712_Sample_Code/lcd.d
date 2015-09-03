@@ -1,0 +1,1 @@
+ lcd.d  lcd.p1:  C:/Users/Phang/Desktop/current\ meassure/program/ACS712_Sample_Code/lcd.c C:/Users/Phang/Desktop/current\ meassure/program/ACS712_Sample_Code/lcd.h

@@ -1,0 +1,1 @@
+ acs712.d  acs712.p1:  C:/Users/Phang/Desktop/current\ meassure/program/ACS712_Sample_Code/acs712.c C:/Users/Phang/Desktop/current\ meassure/program/ACS712_Sample_Code/lcd.h
